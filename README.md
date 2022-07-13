@@ -1,8 +1,10 @@
 # Text-Analysis
+Branches contain ipynb file for scrapping as well as text analysis.
 
-Folder DATA EXTRACTION has the scrapping code Scraping Article.ipynb in ipynb format and output file is ArticlesBlackCoffer.csv contains URL ID and the articles of each URL given in input file.
-
-Folder Text Analysis has all the codes used for text Analysis and the desired output
-The colab file TEXTANALYSIS.ipynb is capable of explaining the intension of each code; 
-File named Mectrics_output is the final output file obtained after everything.
-
+The objective is to infer the mectrics of each articles.
+Mectrices are :
+'POSITIVE SCORE', 'NEGATIVE SCORE', 'POLARITY SCORE',
+'SUBJECTIVITY SCORE', 'AVG SENTENCE LENGTH',
+ 'PERCENTAGE OF COMPLEX WORDS', 'FOG INDEX',
+ 'AVG NUMBER OF WORDS PER SENTENCE', 'COMPLEX WORD COUNT', 'WORD COUNT',
+ 'SYLLABLE PER WORD', 'PERSONAL PRONOUNS', 'AVG WORD LENGTH'
